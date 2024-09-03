@@ -1,0 +1,40 @@
+/* styles/Header.module.css */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #232f3e; /* Amazon-like header background color */
+    color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo h2 {
+    font-size: 1.5rem;
+    margin: 0;
+  }
+  
+  .nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  
+  .userProfile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .userName {
+    font-size: 1rem;
+  }
+  
